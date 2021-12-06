@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,6 +7,11 @@ import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DetalleConceptoComponent } from './pages/detalle-concepto/detalle-concepto.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NbThemeModule, NbLayoutModule, NbTabsetComponent, NbTabsetModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { AppRoutingModule } from './app-routing.module';
+import { ListaConceptosComponent } from './pages/lista-conceptos/lista-conceptos.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +19,17 @@ import { DetalleConceptoComponent } from './pages/detalle-concepto/detalle-conce
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    DetalleConceptoComponent
+    DetalleConceptoComponent,
+    ListaConceptosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    NbThemeModule.forRoot({ name: 'dark' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbTabsetModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

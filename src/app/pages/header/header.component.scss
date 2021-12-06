@@ -1,0 +1,15 @@
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+}
+ul #nav{
+    margin-top: 2em;
+    li{
+        margin-left: 1em;
+    }
+}
+
+a{
+    text-decoration: none;
+}
