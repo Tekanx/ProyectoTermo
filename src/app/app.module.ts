@@ -1,6 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatCardModule } from '@angular/material/card'; 
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
@@ -29,6 +30,7 @@ import { ListaConceptosComponent } from './pages/lista-conceptos/lista-conceptos
     NbLayoutModule,
     NbEvaIconsModule,
     NbTabsetModule,
+    MatCardModule,
     AppRoutingModule
   ],
   providers: [],

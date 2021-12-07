@@ -1,1 +1,12 @@
-<p>lista-conceptos works!</p>
+<ul>
+    <li *ngFor="let concept of Lista; index as i">
+        <button nbButton outline status="primary" id="btncard">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>{{concept.nombre}}</mat-card-title>
+                    <mat-card-subtitle>{{concept.descripcion_corta}}</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        </button>
+    </li>
+</ul>
