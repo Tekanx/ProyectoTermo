@@ -1,12 +1,17 @@
-<ul>
-    <li *ngFor="let concept of Lista; index as i">
-        <button nbButton outline status="primary" id="btncard">
-            <mat-card>
-                <mat-card-header>
-                    <mat-card-title>{{concept.nombre}}</mat-card-title>
-                    <mat-card-subtitle>{{concept.descripcion_corta}}</mat-card-subtitle>
-                </mat-card-header>
-            </mat-card>
-        </button>
-    </li>
-</ul>
+<div class="container mb-5">
+    <div class="row gy-4">
+        <div *ngFor="let concept of Lista; index as i" class="col-sm-6 col-lg-4">
+            <a href="#" class=" border d-flex justify-content-center py-4 rounded ">
+                <div>
+                    <div class="fw-bold">
+                        {{concept.nombre}}
+                    </div>
+                    <div>
+                        {{concept.descripcion_corta}}
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
