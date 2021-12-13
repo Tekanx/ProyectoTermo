@@ -1,33 +1,34 @@
-<nav>
-    <div id = "logo">
-        <ul>
-            <a [routerLink]="['/']" routerLinkActive = "router-link-active">
-                <li>
-                    <img src="./../../../assets/logo/TermoLogo.png" >
-                </li> 
-            </a>
-            <ul id = "nav">
-                <li id = "Inicio">
-                    <a [routerLink] = "['/']" routerLinkActive = "router-link-active">
-                    <button>
-                        <span>
-                            Inicio
-                        </span>
-                    </button>    
-                    </a>
-                </li>
-                <li id = "Conceptos">
-                    <a [routerLink] = "['/concepto']" routerLinkActive = "router-link-active">
 
-                        <button>
-                            <span>
+  <div class="nav-parent" style="margin-bottom: 120px;">
+    <nav class="navbar py-2 px-2 navbar-light fixed-top shadow-sm" style="background-color: #e3f2fd;">
+        <div class="container justify-content-between nav-container">
+            <a class="navbar-brand" href="#">
+                <img src="./../../../assets/logo/TermoLogo.png" alt="logo-alargado" class="logo-alargado logo-img" id="img-1">
+            </a>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navcollapse" id="navbarText">
+                <ul class="navbar-nav text-center my-4">
+                    <li class="nav-item rounded">
+                        <a [routerLink] = "['/']" routerLinkActive = "router-link-active" class="nav-link active my-2" aria-current="page" href="#" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                            <span class="text-dark">
+                                Inicio
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item rounded">
+                        <a [routerLink] = "['/concepto']" routerLinkActive = "router-link-active" class="nav-link active my-2" href="#" data-bs-toggle="collapse" data-bs-target="#navbarText">
+                            <span class="text-dark">
                                 Conceptos
                             </span>
-                        </button>
-                    </a>
-                </li>
-                
-            </ul>
-        </ul>
-    </div>
-</nav>
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
