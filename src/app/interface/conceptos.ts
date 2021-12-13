@@ -170,14 +170,5 @@ export let ListaConceptos : Array<Conceptos> =
         imagen_ejemplo : "",
         notas : "",
         simbologia : ""
-    },
-    {
-        nombre : "",
-        descripcion_corta : "",
-        descripcion_larga : "",
-        imagen_formula : "",
-        imagen_ejemplo : "",
-        notas : "",
-        simbologia : ""
-    },
+    }
 ]
