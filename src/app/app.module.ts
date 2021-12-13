@@ -9,8 +9,6 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DetalleConceptoComponent } from './pages/detalle-concepto/detalle-concepto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule, NbTabsetComponent, NbTabsetModule } from '@nebular/theme';
-import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { ListaConceptosComponent } from './pages/lista-conceptos/lista-conceptos.component';
 
@@ -26,12 +24,8 @@ import { ListaConceptosComponent } from './pages/lista-conceptos/lista-conceptos
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({ name: 'dark' }),
-    NbLayoutModule,
-    NbEvaIconsModule,
-    NbTabsetModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
