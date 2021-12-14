@@ -13,12 +13,12 @@ export let ListaConceptos : Array<Conceptos> =
     {
         id: 1,
         nombre : "Escalas de Temperatura",
-        descripcion_corta : "",
-        descripcion_larga : "",
-        imagen_formula : "",
-        imagen_ejemplo : "",
-        notas : "",
-        simbologia : ""
+        descripcion_corta : "Esta es una descripcion corta",
+        descripcion_larga : "Esta es una descripcion mucho más larga para ejemplificar como funciona la vista en detalle",
+        imagen_formula : "../../assets/img/imagenFormula1",
+        imagen_ejemplo : "../../assets/img/imagenEjemplo1",
+        notas : "Esto es un ejemplo de una nota",
+        simbologia : "../../assets/img/imagenSimbologia1"
     },
     {
         id: 2,
