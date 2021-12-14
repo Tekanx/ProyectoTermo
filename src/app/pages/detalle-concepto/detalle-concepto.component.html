@@ -1,1 +1,26 @@
-<h2>HI {{conceptId}}</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-git 12 col-md-11 col-lg-10 mx-auto">
+            <div class="card my-5 py-4 mx-auto text-center">
+                <div>
+                    <h2 class="display-5">Detalle</h2>
+                    <div class="row">
+                        <div class="col-11 col-sm-10 mx-auto mt-3">
+                            <div class="card text-center mb-5">
+                                <div class="card-header bg-primary text-white fs-5" >{{concept.nombre}}</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{concept.descripcion_larga}}</h5>
+                                        <h3 class="display-5 fw-bold fs-5 mt-4">Notas</h3>
+                                        <p class="card-text">
+                                            {{concept.notas}}
+                                        </p>
+                                    </div>
+                                <!-- <div class="card-footer text-muted">c</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
