@@ -8,7 +8,7 @@ import { Conceptos, ListaConceptos } from '../../interface/conceptos';
 })
 export class ListaConceptosComponent implements OnInit {
 
-  Lista = ListaConceptos;
+  Lista:Array<Conceptos> = ListaConceptos;
   
   constructor() { }
 
