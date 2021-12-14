@@ -1,7 +1,7 @@
 <div class="container mb-5">
     <div class="row gy-4">
         <div *ngFor="let concept of Lista; index as i" class="col-sm-6 col-lg-4">
-            <a href="#" class=" border d-flex justify-content-center py-4 rounded ">
+            <a [routerLink]="['/concepto', concept.id]" routerLinkActive="router-link-active" class=" border d-flex justify-content-center py-4 rounded ">
                 <div>
                     <div class="fw-bold">
                         {{concept.nombre}}
