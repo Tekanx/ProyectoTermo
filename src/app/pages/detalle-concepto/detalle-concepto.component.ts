@@ -9,14 +9,16 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetalleConceptoComponent implements OnInit {
 
-  Lista:Array<Conceptos> = ListaConceptos;
+  listaConceptos:Array<Conceptos> = ListaConceptos;
   conceptId: number = 0;
+  concept: any;
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
 
     this.conceptId = parseInt(this.route.snapshot.paramMap.get('id') as string);
+    this.concept = this.listaConceptos.find( concepto => concepto.id == this.conceptId);
 
   }
 
