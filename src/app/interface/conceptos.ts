@@ -1,4 +1,5 @@
 export interface Conceptos {
+    id: number;
     nombre : string;
     descripcion_corta : string;
     descripcion_larga : string;
@@ -10,6 +11,7 @@ export interface Conceptos {
 export let ListaConceptos : Array<Conceptos> = 
 [
     {
+        id: 1,
         nombre : "Escalas de Temperatura",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -19,6 +21,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 2,
         nombre : "Transferencia de Calor",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -28,6 +31,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 3,
         nombre : "Fuentes de Energía",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -37,6 +41,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 4,
         nombre : "Unidad de Masa",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -46,6 +51,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 5,
         nombre : "Unidad de Fuerza",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -55,6 +61,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 6,
         nombre : "Unidad de Peso",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -64,6 +71,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 7,
         nombre : "Unidad de Trabajo",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -73,6 +81,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 8,
         nombre : "Tipos de sistemas",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -82,6 +91,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 9,
         nombre : "Propiedades Intensivas",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -91,6 +101,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 10,
         nombre : "Propiedades Extensivas",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -100,6 +111,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 11,
         nombre : "Propiedades Específicas",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -109,6 +121,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 12,
         nombre : "Principio de Pascal",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -118,6 +131,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 13,
         nombre : "Energía Potencial",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -127,6 +141,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 14,
         nombre : "Energía Cinética",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -136,6 +151,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 15,
         nombre : "Flujo másico",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -145,6 +161,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 16,
         nombre : "Energía Interna",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -154,6 +171,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 17,
         nombre : "Energía Mecánica",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -163,6 +181,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
+        id: 18,
         nombre : "Variación de energía mecánica",
         descripcion_corta : "",
         descripcion_larga : "",

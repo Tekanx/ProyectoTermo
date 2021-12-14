@@ -8,7 +8,7 @@ import { DetalleConceptoComponent } from '../app/pages/detalle-concepto/detalle-
 const routes: Routes = [
   {path: '', component:HomeComponent},
   {path: 'concepto', component:ListaConceptosComponent},
-  {path: 'concepto/detalle', component:DetalleConceptoComponent}
+  {path: 'concepto/:id', component:DetalleConceptoComponent}
 ];
 
 @NgModule({
