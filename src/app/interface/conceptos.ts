@@ -83,8 +83,8 @@ export let ListaConceptos : Array<Conceptos> =
     {
         id: 8,
         nombre : "Propiedades Intensivas",
-        descripcion_corta : "",
-        descripcion_larga : "",
+        descripcion_corta : "Las propiedades denominadas propiedades intensivas son aquellas que no dependen del tamaño del sistema.",
+        descripcion_larga : "Las propiedades intensivas no dependen de la cantidad presente de materia y éstas no pueden ser obtenidas como la suma de todos los subsistemas, como es el caso de la temperatura.",
         imagen_formula : "",
         imagen_ejemplo : "",
         notas : "",
@@ -93,7 +93,7 @@ export let ListaConceptos : Array<Conceptos> =
     {
         id: 9,
         nombre : "Propiedades Extensivas",
-        descripcion_corta : "Las propiedades denominadas propiedades intensivas son aquellas que no dependen del tamaño del sistema.",
+        descripcion_corta : "Las propiedades termodinámicas cuyos valores dependen del tamaño del sistema son llamadas propiedades extensivas",
         descripcion_larga : "Si un sistema está compuesto por diferentes subsistemas, el valor de la propiedad extensiva total será la suma del valor de los diferentes subsistemas.",
         imagen_formula : "",
         imagen_ejemplo : "",
