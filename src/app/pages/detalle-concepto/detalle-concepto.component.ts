@@ -19,6 +19,8 @@ export class DetalleConceptoComponent implements OnInit {
 
     this.conceptId = parseInt(this.route.snapshot.paramMap.get('id') as string);
     this.concept = this.listaConceptos.find( concepto => concepto.id == this.conceptId);
+  
+    scrollTo(0,0);
 
   }
 
