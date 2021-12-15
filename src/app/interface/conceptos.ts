@@ -41,7 +41,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
-        id: 5,
+        id: 4,
         nombre : "Unidad de Fuerza",
         descripcion_corta : "La unidad de medida de la magnitud fuerza, adoptada por los países firmantes de la Convención del Metro y de uso legal en España, es el “newton” (N)",
         descripcion_larga : "En física, un newton​ es la unidad de medida de la fuerza en el Sistema Internacional de Unidades, nombrada de esa forma por las aportaciones de Isaac Newton a la física, especialmente a la mecánica clásica. ",
@@ -51,7 +51,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "N"
     },
     {
-        id: 6,
+        id: 5,
         nombre : "Unidad de Peso",
         descripcion_corta : "La masa es una magnitud física que mide la cantidad de materia contenida en un cuerpo.​ En el Sistema Internacional de Unidades la unidad oficial de masa es el kilogramo.",
         descripcion_larga : "Unidad de masa del Sistema Internacional, de símbolo kg, que equivale a la masa del prototipo de platino iridiado que se encuentra en la Oficina Internacional de Pesas y Medidas de París.",
@@ -61,7 +61,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "Kg"
     },
     {
-        id: 7,
+        id: 6,
         nombre : "Unidad de Trabajo",
         descripcion_corta : "El julio​ o joule​ es la unidad derivada del Sistema Internacional utilizada para medir energía, trabajo y calor.",
         descripcion_larga : "Como unidad de trabajo, el julio se define como la cantidad de trabajo realizado por una fuerza constante de un newton en un metro de longitud en la misma dirección de la fuerza.",
@@ -71,7 +71,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "J"
     },
     {
-        id: 8,
+        id: 7,
         nombre : "Tipos de sistemas",
         descripcion_corta : "Cuando hablamos de termodinámica, el elemento o conjunto particular de elementos que nos interesa (que podría ser algo tan pequeño como una célula o tan grande como un ecosistema) se llama sistema.",
         descripcion_larga : "Un sistema abierto puede intercambiar energía y materia con su entorno. El ejemplo de la estufa sería un sistema abierto, porque se puede perder calor y vapor de agua en el aire.Un sistema cerrado, por el contrario, solo puede intercambiar energía con sus alrededores, no materia. Si ponemos una tapa muy bien ajustada sobre la olla del ejemplo anterior, se aproximaría a un sistema cerrado.Un sistema aislado es que no puede intercambiar ni materia ni energía con su entorno. Es difícil encontrarse con sistema aislado perfecto, pero una taza térmica con tapa es conceptualmente similar a un sistema aislado verdadero.",
@@ -81,7 +81,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
-        id: 9,
+        id: 8,
         nombre : "Propiedades Intensivas",
         descripcion_corta : "",
         descripcion_larga : "",
@@ -91,7 +91,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
-        id: 10,
+        id: 9,
         nombre : "Propiedades Extensivas",
         descripcion_corta : "Las propiedades denominadas propiedades intensivas son aquellas que no dependen del tamaño del sistema.",
         descripcion_larga : "Si un sistema está compuesto por diferentes subsistemas, el valor de la propiedad extensiva total será la suma del valor de los diferentes subsistemas.",
@@ -102,7 +102,7 @@ export let ListaConceptos : Array<Conceptos> =
     },
 
     {
-        id: 12,
+        id: 10,
         nombre : "Principio de Pascal",
         descripcion_corta : "El principio de Pascal o ley de Pascal, es una ley enunciada por el físico-matemático francés Blaise Pascal",
         descripcion_larga : "la presión ejercida sobre un fluido incompresible y en equilibrio dentro de un recipiente de paredes indeformables se transmite con igual intensidad en todas las direcciones y en todos los puntos del fluido.",
@@ -112,7 +112,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : ""
     },
     {
-        id: 13,
+        id: 11,
         nombre : "Energía Potencial",
         descripcion_corta : "La energía potencial es la energía mecánica asociada a la localización de un cuerpo dentro de un campo de fuerza o a la existencia de un campo de fuerza en el interior de un cuerpo.",
         descripcion_larga : "Esta forma de energía se asocia con las fuerzas que actúan sobre un cuerpo de tal manera que esto sólo depende de la posición del cuerpo en el espacio. Estas fuerzas pueden ser representadas por un vector en cualquier punto del espacio formando. Este vector se conoce como campo vectorial de fuerzas o campo de fuerzas.",
@@ -122,7 +122,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "Ep"
     },
     {
-        id: 14,
+        id: 12,
         nombre : "Energía Cinética",
         descripcion_corta : "En física, la energía cinética de un cuerpo es aquella energía que posee debido a su movimiento relativo.",
         descripcion_larga : "La cinética es la energía que posee un cuerpo a causa de su movimiento. Se trata de la capacidad o trabajo que permite que un objeto pase de estar en reposo, o quieto, a moverse a una determinada velocidad.",
@@ -132,7 +132,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "Ec"
     },
     {
-        id: 15,
+        id: 13,
         nombre : "Flujo másico",
         descripcion_corta : "El flujo másico es la magnitud física que expresa la variación de la masa con respecto al tiempo en un área específica.",
         descripcion_larga : "En el Sistema Internacional se mide en unidades de kilogramos por segundo, mientras que en el sistema anglosajón se mide en libras por segundo.",
@@ -142,7 +142,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "m con un punto arriba"
     },
     {
-        id: 16,
+        id: 14,
         nombre : "Energía Interna",
         descripcion_corta : "En física, la energía interna de un sistema es un reflejo de la energía a escala macroscópica.",
         descripcion_larga : "Más concretamente, es la suma de: la energía cinética interna, es decir, de las sumas de las energías cinéticas de las individualidades que forman un cuerpo respecto al centro de masas del sistema.",
@@ -152,7 +152,7 @@ export let ListaConceptos : Array<Conceptos> =
         simbologia : "U"
     },
     {
-        id: 17,
+        id: 15,
         nombre : "Energía Mecánica",
         descripcion_corta : "La energía mecánica de un cuerpo o de un sistema físico es la suma de su energía cinética y la energía potencial.",
         descripcion_larga : "Se trata de una magnitud escalar relacionada con el movimiento de los cuerpos y con las fuerzas de origen mecánico, como son la fuerza gravitatoria y la de origen elástico, cuyo principal exponente es la ley de Hooke. Ambas son fuerzas conservativas.",
