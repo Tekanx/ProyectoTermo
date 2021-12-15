@@ -8,13 +8,25 @@
                         <div class="col-11 col-sm-10 mx-auto mt-3">
                             <div class="card text-center mb-5">
                                 <div class="card-header bg-primary text-white fs-5" >{{concept.nombre}}</div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">{{concept.descripcion_larga}}</h5>
-                                        <img *ngIf="concept.imagen_formula != ''" class="my-4 img-fluid" src="{{concept.imagen_formula + '.jpg'}}"  alt="" style="max-height: 150px;">
+                                    <div class="card-body py-4">
+                                        <div>
+                                            <h3 class="display-5 fw-bold fs-5">Descripción</h3>
+                                            <p class="card-title">{{concept.descripcion_larga}}</p>    
+                                        </div>
+                                        <div *ngIf="concept.imagen_formula != ''">
+                                            <h3 class="display-5 fw-bold fs-5 mt-4">Formula</h3>
+                                            <img  class="my-4 img-fluid" src="{{concept.imagen_formula + '.jpg'}}"  alt="" style="max-height: 150px;">
+                                        </div>
                                         <div *ngIf="concept.notas != ''">
                                             <h3 class="display-5 fw-bold fs-5 mt-4">Notas</h3>
                                             <p class="card-text">
                                                 {{concept.notas}}
+                                            </p>
+                                        </div>
+                                        <div *ngIf="concept.simbologia != ''">
+                                            <h3 class="display-5 fw-bold fs-5 mt-4">Simbologia</h3>
+                                            <p class="card-text">
+                                                {{concept.simbologia}}
                                             </p>
                                         </div>
                                         
