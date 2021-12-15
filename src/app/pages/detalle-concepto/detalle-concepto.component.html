@@ -10,10 +10,14 @@
                                 <div class="card-header bg-primary text-white fs-5" >{{concept.nombre}}</div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{concept.descripcion_larga}}</h5>
-                                        <h3 class="display-5 fw-bold fs-5 mt-4">Notas</h3>
-                                        <p class="card-text">
-                                            {{concept.notas}}
-                                        </p>
+                                        <img *ngIf="concept.imagen_formula != ''" class="my-4 img-fluid" src="{{concept.imagen_formula + '.jpg'}}"  alt="" style="max-height: 150px;">
+                                        <div *ngIf="concept.notas != ''">
+                                            <h3 class="display-5 fw-bold fs-5 mt-4">Notas</h3>
+                                            <p class="card-text">
+                                                {{concept.notas}}
+                                            </p>
+                                        </div>
+                                        
                                     </div>
                                 <!-- <div class="card-footer text-muted">c</div> -->
                             </div>
