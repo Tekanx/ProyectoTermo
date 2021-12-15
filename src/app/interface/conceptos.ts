@@ -15,7 +15,7 @@ export let ListaConceptos : Array<Conceptos> =
         nombre : "Escalas de Temperatura",
         descripcion_corta : "Las escalas de temperatura (o escalas termométricas) son las escalas que se utilizan para determinar la temperatura de un cuerpo midiéndola en grados.",
         descripcion_larga : "La escala de temperatura es una metodología para calibrar la temperatura de cantidad física en metrología. Las escalas empíricas miden la temperatura en relación con parámetros convenientes y estables, como el punto de congelación y ebullición del agua",
-        imagen_formula : "",
+        imagen_formula : "../../../assets/conversionTemperatura",
         imagen_ejemplo : "",
         notas : "Las tres escalas de temperatura más comunes son: Celsius, Fahrenheit y Kelvin. Una escala de temperatura puede ser creada identificando dos temperaturas fácilmente reproducibles.",
         simbologia : "Depende de la escala"
